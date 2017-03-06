@@ -46,3 +46,32 @@
 ---
 
 ## Introduction to AngularJS
+
+- MVC Framework
+- MVVM Framework
+- Modular architecture
+- Imperative Code
+
+---
+
+## Model View Controller (MVC) Framework
+
+![Simple MVC](content/images/simple-mvc.svg) 
+
+- Consists of three major parts (Model / View / Controller)
+- Decouples code and separates responsibilities
+- Mostly used in traditional server side languages
+- Model => Contains the data and logic
+- View => Visual layout of your page
+- Controller => Updates the view or model
+
+---
+
+## Model View View-Model (MVVM) Framework
+
+<img src="content/images/mvvm-front-end.gif" style="width:800px;">
+
+- Angular can be better understood as a MVVM framework
+- Controllers are replaced with "view models"
+- Multiple "view models" can exist for a single view
+- Automatic DOM synchronization through "two way data binding"
